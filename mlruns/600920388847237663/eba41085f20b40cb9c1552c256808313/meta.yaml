@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/daviderossetti/Desktop/MLOps-Retraining-Prefect/mlruns/600920388847237663/eba41085f20b40cb9c1552c256808313/artifacts
+end_time: 1763197006853
+entry_point_name: ''
+experiment_id: '600920388847237663'
+lifecycle_stage: active
+run_id: eba41085f20b40cb9c1552c256808313
+run_name: debonair-panda-84
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763197005297
+status: 3
+tags: []
+user_id: daviderossetti

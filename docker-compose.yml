@@ -1,0 +1,42 @@
+name: mlops-retraining-prefect
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: docker/api/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models
+    depends_on:
+      - mlflow
+    networks:
+      - mlops_net
+
+  prefect:
+    build:
+      context: .
+      dockerfile: docker/prefect/Dockerfile
+    volumes:
+      - ./models:/app/models
+      - ./data:/app/data
+      - ./mlruns:/app/mlruns
+    depends_on:
+      - mlflow
+    networks:
+      - mlops_net
+
+  mlflow:
+    build:
+      context: .
+      dockerfile: docker/mlflow/Dockerfile
+    ports:
+      - "5500:5000"
+    volumes:
+      - ./mlruns:/mlflow/mlruns
+    networks:
+      - mlops_net
+
+networks:
+  mlops_net:

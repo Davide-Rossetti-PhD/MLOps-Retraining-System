@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+mlflow
+prefect
+statsmodels
+fastapi
+uvicorn
+python-dotenv
+scipy

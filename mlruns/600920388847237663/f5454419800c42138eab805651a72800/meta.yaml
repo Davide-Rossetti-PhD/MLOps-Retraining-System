@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/daviderossetti/Desktop/MLOps-Retraining-Prefect/mlruns/600920388847237663/f5454419800c42138eab805651a72800/artifacts
+end_time: 1763256846927
+entry_point_name: ''
+experiment_id: '600920388847237663'
+lifecycle_stage: active
+run_id: f5454419800c42138eab805651a72800
+run_name: wise-tern-346
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763256845693
+status: 3
+tags: []
+user_id: root

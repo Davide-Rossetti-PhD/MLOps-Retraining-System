@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/daviderossetti/Desktop/MLOps-Retraining-Prefect/mlruns/600920388847237663/99dfa15e73e4476eb593d412edbaa88e/artifacts
+end_time: 1763196899002
+entry_point_name: ''
+experiment_id: '600920388847237663'
+lifecycle_stage: active
+run_id: 99dfa15e73e4476eb593d412edbaa88e
+run_name: brawny-lamb-337
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763196897476
+status: 3
+tags: []
+user_id: daviderossetti

@@ -1,0 +1,10 @@
+artifact_location: file:///Users/daviderossetti/Desktop/MLOps-Retraining-Prefect/mlruns/600920388847237663/models/m-1f904850854b4081a87e21d1e8af5b25/artifacts
+creation_timestamp: 1763197005379
+experiment_id: '600920388847237663'
+last_updated_timestamp: 1763197006852
+model_id: m-1f904850854b4081a87e21d1e8af5b25
+model_type: null
+name: model
+source_run_id: eba41085f20b40cb9c1552c256808313
+status: 2
+status_message: null
